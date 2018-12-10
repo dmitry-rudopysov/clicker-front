@@ -3,6 +3,8 @@
     <h1>Hello!</h1>
     <p>What you want to do?</p>
     <router-link to="/auth">Sign in</router-link>
+    <br>
+    <router-link to="/score">View score</router-link>
   </div>
 </template>
 
