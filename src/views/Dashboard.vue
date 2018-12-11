@@ -7,15 +7,15 @@
     <div class="cross" id="hufflepuff" @click="addScore">
     </div>
     <div class="cross" id="ravenclaw" @click="addScore">
-      <div v-if="user">
-        <h1>Hello USER!</h1>
-        <img :src="user.photoURL" width="100"> <br>
-        <h3>{{user.displayName}}</h3>
-        <p>{{user.email}}</p>
-        <button @click="logOut">Log out</button>
-        <br><br><br>
-        <pre>{{user}}</pre>
-      </div>
+      <!--<div v-if="user">-->
+        <!--<h1>Hello USER!</h1>-->
+        <!--<img :src="user.photoURL" width="100"> <br>-->
+        <!--<h3>{{user.displayName}}</h3>-->
+        <!--<p>{{user.email}}</p>-->
+        <!--<button @click="logOut">Log out</button>-->
+        <!--<br><br><br>-->
+        <!--<pre>{{user}}</pre>-->
+      <!--</div>-->
     </div>
   </div>
 </template>
