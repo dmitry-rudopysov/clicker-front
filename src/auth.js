@@ -9,9 +9,6 @@ const auth = {
 
   init (context) {
     this.context = context
-
-    console.log(config)
-
     firebase.initializeApp(config)
     this.uiConfig = {
       signInSuccessUrl: 'dashboard',
