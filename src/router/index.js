@@ -11,6 +11,7 @@ import Score from '@/views/Score'
 Vue.use(Router)
 
 var routes = [
+  // eslint-disable-next-line standard/object-curly-even-spacing
   { path: '/home', name: 'home', component: Home},
   { path: '/admin', name: 'admin', component: Admin, meta: { requireAuth: true } },
   { path: '/auth', name: 'auth', component: Auth, meta: { guestOnly: true } },
